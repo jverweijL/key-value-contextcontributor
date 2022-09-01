@@ -1,0 +1,5 @@
+Bundle-Name: key-value-contextcontributor
+Bundle-SymbolicName: key.value.contextcontributor
+Bundle-Version: 1.0.0
+-consumer-policy: ${replacestring;${range;[==,==]};.*,(.*)];$1}
+-provider-policy: ${replacestring;${range;[==,==]};.*,(.*)];$1}
